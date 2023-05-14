@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> MY AUTOBIOGRAPHY </title>
+<link rel="stylesheet" href="style.css">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(design.gif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo {
+    width: 150px;
+    height: 20vh;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    height: 100px;
+    
+  
+    
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:larger;
+    
+}
+.navbar ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    
+}
+.navbar ul li:hover::after {
+    width: 100%;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.detel {
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-30%);
+    margin-right: 60%;
+    margin-top: 5% ;
+}
+.detel h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family:serif;
+    color: aqua;
+    height: 30px;
+    
+    
+}
+span {
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.detel h2 {
+    margin: 10px auto;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: left ;
+    padding: 2vw;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: aqua;
+    font-family:serif;
+    
+
+}
+ul li a:hover {
+    color: black;
+    background: aqua;
+    transition: 1s;
+}
+ul li a{
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="banner">
+  <div class="navbar">
+     <a href="https://llcc.edu.ph/"> <img src="logo.webp" class="logo"> </a>
+
+      <ul>
+        <li> <a href="3description.html">SELF DESCRIPTION</a></li>
+        <li> <a href="2hobbies.html" >HOBBIES</a></li>
+        <li> <a href="4achievements.html">CURRENT ACHIEVEMENTS</a></li>
+        <li> <a href="5contacts.html">CONTACTS</a></li>
+
+      </ul>
+    
+    </div>
+</div>
+
+<div class="detel"> 
+    <h1> Hello, I'm <span> Keesler D. Lancian <span></h1>
+    <h2> and this is my <span> AUTOBIOGRAPHY </span> </h2> 
+  
+
+</div>
+    
+</div>
+
+</div>
+
+</body>
+</html>
